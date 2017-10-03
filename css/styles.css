@@ -1,0 +1,47 @@
+body{
+  background-color: #4B0082;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 50px auto;
+}
+.main {
+  font-family: 'Varela Round', sans-serif;
+  font-weight: lighter;
+  color: #000;
+  background: #fff;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.pictures {
+  width: 60%;
+  height: auto;
+}
+.cent {
+  margin: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-question {
+  text-transform: capitalize;
+  font-family: 'Varela Round', sans-serif;
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+.buttons {
+  background-color: #32127A;
+  color: white;
+  border-radius: 10px;
+}
