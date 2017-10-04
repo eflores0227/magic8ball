@@ -2,3 +2,42 @@
 an input field to input a question,
 an ask button that when clicked, will output a random image
 a div/img tag that you can output the image into -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Magic8Ball</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+</head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 main cent">
+          <h2>Magic8Ball</h2>
+          <p class="text-center">Welcome to your favorite 1950's game, Magic8Ball, where you can get answers for your future.
+            <div class="row">
+              <div class="center">
+                <img src="img/magic8ball_empty.png" alt="magic8ball" class="img-picture" id="eightball" name="magic_eight">
+              </div>
+              <div class="col-md-5 text-center">
+                <h3>Ask you question, I'll determine your fate.</h3>
+                <br />
+                <form>
+                  <input type="text" id="ask" placeholder="Question">
+                  <button type="button" class="buttons" onClick="answer()">Getting your future</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
